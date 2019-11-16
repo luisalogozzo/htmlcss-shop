@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 80px;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  line-height: 80px
+}
+
+.menu li {
+  padding-left: 10px;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu .logo {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+
+}
+
+.row {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.box {
+  height: 372px;
+  width: 33%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pd1 {
+  background-image: url(../img/pd1.jpg);
+}
+
+.pd2 {
+  background-image: url(../img/pd2.jpeg);
+}
+
+.pd3 {
+  background-image: url(../img/pd3.jpg);
+}
+
+.pd4 {
+  background-image: url(../img/pd4.jpg);
+
+}
+
+.pd5 {
+  background-image: url(../img/pd5.jpg);
+}
+
+
+.pd6 {
+  background-image: url(../img/pd6.jpg);
+}
+
+.discount {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right:0;
+  font-size: 20px;
+  background-color: orange;
+  border-radius: 5%;
+  line-height: 30px;
+}
+
+.red {
+   background-color: red
+ }
+
+.box .cart {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: none;
+}
+
+.box:hover {
+  border: 2px solid black;
+}
+
+.box:hover .cart{
+  display: block;
+  color: red;
+}
